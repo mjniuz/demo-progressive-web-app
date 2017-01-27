@@ -22,7 +22,7 @@
 
   //To get github user data via `Fetch API`
   function fetchGitUserInfo(username, requestFromBGSync) {
-    var name = username || 'gokulkrishh';
+    var name = username || 'mjniuz';
     var url = 'https://api.github.com/users/' + name;
 
     spinnerElement.classList.add('show'); //show spinner
